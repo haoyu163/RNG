@@ -1,5 +1,5 @@
 const min = 0
-const max = 9
+const max = 10
 const RNG = document.getElementById("Gambling");
 const countLabel = document.getElementById("countLabel");
 let randomNum;
