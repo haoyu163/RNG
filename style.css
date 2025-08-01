@@ -1,20 +1,29 @@
-body{
+#label-row {
     text-align: center;
-    font-family: Verdana
+    margin-bottom: 20px;
 }
-#labels{
-    display: block;
+.labels{
+    display: inline-block;
     text-align: center;
-    font-size: 10em;
+    font-size: 5em;
+    margin: 0 20px;
+    border: 2px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
 }
 #buttons{
-    padding: 10px 20px ;
+    text-align: center;
+}
+.buttons{
     font-size: 3em;
     color: white;
-    background-color:rgba(255, 25, 25, 0.999) ;
+    background-color:rgba(255, 25, 25, 0.998) ;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.25 s;
+    transition: background-color 0.25s;
 
 }
 .buttons:hover{
