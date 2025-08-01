@@ -25,5 +25,5 @@ RNG.onclick = function() {
     }
     setTimeout(() => {
         alert(message);
-    }, 500);
+    }, 250);
 }
