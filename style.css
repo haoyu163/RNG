@@ -2,12 +2,12 @@ body{
     text-align: center;
     font-family: Verdana
 }
-.labels{
+#labels{
     display: block;
     text-align: center;
     font-size: 20em;
 }
-.buttons{
+#buttons{
     padding: 10px 20px ;
     font-size: 3em;
     color: white;
